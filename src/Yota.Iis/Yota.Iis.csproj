@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net48;net5.0;net5.0-windows;netcoreapp3.1;netstandard2.0</TargetFrameworks>
+        <Version>1.0.0</Version>
+        <PackageVersion>1.0.0</PackageVersion>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <Title>Yota.MvcHelpers.Iis</Title>
+        <PackageProjectUrl>https://github.com/denisburlacu/Yota.MvcHelpers</PackageProjectUrl>
+        <RootNamespace>Yota.MvcHelpers.Iis</RootNamespace>
+        <Authors>Denis Burlacu</Authors>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <LangVersion>latest</LangVersion>
+        <IsTransformWebConfigDisabled>true</IsTransformWebConfigDisabled>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0"/>
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5"/>
+        <PackageReference Include="Microsoft.AspNetCore.Server.IIS" Version="2.2.6"/>
+        <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration" Version="2.2.1"/>
+    </ItemGroup>
+
+    <ItemGroup>
+    </ItemGroup>
+</Project>
